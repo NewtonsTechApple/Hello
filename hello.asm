@@ -5,7 +5,7 @@ section .data
   len equ $ - msg
   
 section .text
-  start:
+  _start:
     mov eax, 4
     mov ebx, 1
     mov ecx, msg
